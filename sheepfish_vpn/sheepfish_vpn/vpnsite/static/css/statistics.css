@@ -1,0 +1,16 @@
+
+#statistics{
+    display: inline-block;
+
+    width: 64%;
+
+    margin-right: 2%;
+}
+
+.statistics-piece{
+    display: inline-block;
+}
+
+#volume{
+    float: right;
+}
