@@ -46,6 +46,8 @@ cat db_sheepfish_vpn_backup.sql | docker exec -i CONTAINER ID psql --user admin 
 ```
 4. Check if the installation succeeds by opening the [http://localhost:8000/vpnsite]()
 ```
+please coordinate the vpn host at urls.py with host changes changes
+```
 user credentials: username=User, password=userpassword
 admin credentials: username=Admin, password=adminpassword
-```
+
